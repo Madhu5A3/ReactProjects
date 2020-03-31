@@ -1,4 +1,5 @@
 import React from 'react';
+import randomColour from '../hoc/randomColour.js';
 
 const About = () => {
     return (
@@ -8,4 +9,4 @@ const About = () => {
     )
 }
 
-export default About
+export default randomColour(About)
